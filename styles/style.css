@@ -286,7 +286,7 @@ footer p::selection {
   position: absolute;
   transform: rotate(-60deg);
   top: 45%;
-  right: -2%;
+  right: 0%;
   opacity: 0.6;
   z-index: -1;
   animation: blobwave 6s ease-in-out infinite;

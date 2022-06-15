@@ -1,0 +1,32 @@
+.nav__list {
+  font-size: 1.6rem;
+  justify-content: flex-end;
+}
+.nav-list__element {
+  margin-right: 30px;
+}
+
+.main__container {
+  margin-top: 65px;
+}
+.main__img {
+  width: 280px;
+  height: 280px;
+}
+
+.section--about {
+  text-align: left;
+  width: 90%;
+  margin: 70px auto;
+}
+.section--about h2 {
+  padding-left: 20px;
+}
+.section--about p {
+  padding-left: 45px;
+  font-size: 1.8rem;
+}
+.about--texts-container span {
+  padding-left: 45px;
+  font-size: 1.8rem;
+}
