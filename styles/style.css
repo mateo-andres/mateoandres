@@ -181,6 +181,80 @@ section.section__links {
   animation: moveUp 15s infinite;
 }
 
+.projects h2 {
+  text-align: center;
+  font-family: "syncopate", sans-serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-top: 40px;
+}
+.projects-container {
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  padding: 0 15px;
+  gap: 15px;
+  margin: 35px 0;
+}
+.project {
+  scroll-snap-align: center;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 100px 100px 40px 40px;
+  width: 70%;
+  min-width: 190px;
+  max-width: 240px;
+  padding: 20px 15px;
+  border-radius: 15px;
+  background-color: var(--soft-green);
+}
+.project h3 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+.project img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.project-buttons {
+  display: grid;
+  width: 100%;
+}
+.project a {
+  display: flex;
+  text-decoration: none;
+  color: var(--dark-blue);
+  padding: 8px;
+  font-size: 1.3rem;
+  align-self: flex-end;
+}
+.btn-visitar {
+  width: 100px;
+  background-color: var(--gray);
+  border-radius: 5px;
+  align-items: center;
+  gap: 6px;
+}
+.btn-visitar .project__link-image {
+  margin: 0;
+  width: 15px;
+}
+a.btn-repo {
+  padding-left: 0;
+}
+
+.project--purple {
+  background-color: #ce93d8;
+}
+.project--orange {
+  background-color: #ffb74d;
+}
+.project--blue {
+  background-color: #7986cb;
+}
+
 footer {
   background-color: var(--soft-green);
   text-align: center;

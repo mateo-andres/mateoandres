@@ -10,8 +10,7 @@
   font-size: 7.5rem;
   line-height: 8rem;
 }
-.main__subtitle {
-}
+
 .main__img {
   align-self: flex-start;
   width: 350px;
@@ -34,6 +33,10 @@ section.section__links {
 .section--about p {
   font-size: 2rem;
   max-width: 1070px;
+}
+
+.projects-container {
+  justify-content: center;
 }
 
 #blob .Bwrapper .shape:nth-of-type(1) {
