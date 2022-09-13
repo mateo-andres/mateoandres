@@ -203,7 +203,7 @@ section.section__links {
   align-items: center;
   grid-template-rows: 100px 100px 40px 40px;
   width: 70%;
-  min-width: 190px;
+  min-width: 215px;
   max-width: 240px;
   padding: 20px 15px;
   border-radius: 15px;
@@ -253,6 +253,9 @@ a.btn-repo {
 }
 .project--blue {
   background-color: #7986cb;
+}
+.project--gray {
+  background-color: #84a98c;
 }
 
 footer {
